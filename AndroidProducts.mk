@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_x2.mk
+    $(LOCAL_DIR)/ancient_x2.mk
 
 COMMON_LUNCH_CHOICES := \
-	bliss_x2-eng \
-        bliss_x2-user \
-        bliss_x2-userdebug
+	ancient_x2-eng \
+        ancient_x2-user \
+        ancient_x2-userdebug
