@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_x2.mk
+    $(LOCAL_DIR)/candy_x2.mk
 
 COMMON_LUNCH_CHOICES := \
-	pixys_x2-eng \
-        pixys_x2-user \
-        pixys_x2-userdebug
+	candy_x2-eng \
+        candy_x2-user \
+        candy_x2-userdebug
