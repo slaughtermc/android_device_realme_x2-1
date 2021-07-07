@@ -7,10 +7,10 @@
 $(call inherit-product, device/realme/x2/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixys_x2
+PRODUCT_NAME := syberia_x2
 PRODUCT_DEVICE := x2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme x2
@@ -19,4 +19,4 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 BUILD_FINGERPRINT := "realme/RMX1992/RMX1992L1:9/PKQ1.190630.001/1578551002:user/release-keys"
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
+PRODUCT_GMS_CLIENTID_BASE := android-realme
